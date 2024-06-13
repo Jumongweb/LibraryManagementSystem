@@ -1,4 +1,4 @@
-package com.example.librarymanagementsystem.data.models;
+package com.jumong.librarymanagementsystem.data.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -8,8 +8,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "users")
 public class User {
@@ -27,4 +25,5 @@ public class User {
     private String email;
 
     private String password;
+
 }
